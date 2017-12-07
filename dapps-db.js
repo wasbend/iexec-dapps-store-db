@@ -1,4 +1,4 @@
-module.exports = [
+dappsDB = [
   {
     name: 'Request',
     frontend: 'https://iex.ec',
