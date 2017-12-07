@@ -1,0 +1,25 @@
+{
+  "name": "iexec-dapps-store-db",
+  "version": "1.0.0",
+  "description": "Database for iExec dapp store",
+  "main": "dapps-db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iExecBlockchainComputing/iexec-dapps-store-db.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iExecBlockchainComputing/iexec-dapps-store-db/issues"
+  },
+  "homepage": "https://github.com/iExecBlockchainComputing/iexec-dapps-store-db#readme",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "jest": "^21.1.0"
+  }
+}
