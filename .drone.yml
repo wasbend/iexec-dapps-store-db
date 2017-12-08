@@ -8,6 +8,4 @@ pipeline:
     port: 22
     script:
       - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-      - cd ~/code/iexec-dapps-store-updater
-      - docker pull iexechub/iexec-dapps-store-updater
-      - DEBUG=* docker-compose run --rm iexec-dapps-store-updater https://raw.githubusercontent.com/iExecBlockchainComputing/iexec-dapps-store-db/master/dapps-db.js --download
+      - DEBUG=* docker run --network="webproxy" --rm iexechub/iexec-dapps-store-updater https://raw.githubusercontent.com/iExecBlockchainComputing/iexec-dapps-store-db/master/dapps-db.js --download
