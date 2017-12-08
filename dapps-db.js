@@ -1,6 +1,6 @@
 dappsDB = [
   {
-    name: 'Request',
+    name: 'Request Network',
     frontend: 'https://iex.ec',
     price: 1,
     author: 'Request Inc',
