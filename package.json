@@ -4,7 +4,7 @@
   "description": "Database for iExec dapp store",
   "main": "dapps-db.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/eslint dapps-db.js && ./node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
