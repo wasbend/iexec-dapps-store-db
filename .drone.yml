@@ -1,4 +1,9 @@
 pipeline:
+  test:
+    image: node:9.2.0
+    commands:
+      - npm install
+      - npm test
   deploy:
     image: appleboy/drone-ssh
     host: explorer.iex.ec
