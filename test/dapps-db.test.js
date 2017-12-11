@@ -8,7 +8,7 @@ vm.runInNewContext(dappsDB, sb);
 console.log = () => {};
 
 // CONSTANTS
-const MANDATORY_FIELDS = ['name', 'price', 'author', 'license', 'excerpt', 'description', 'social', 'created', 'logo'];
+const MANDATORY_FIELDS = ['name', 'price', 'author', 'license', 'excerpt', 'description', 'social', 'created', 'logo', 'chains'];
 const MAX_NAME = 40;
 const MAX_AUTHOR = 40;
 const MAX_EXCERPT = 150;
